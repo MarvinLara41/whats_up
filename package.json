@@ -1,0 +1,19 @@
+{
+  "name": "whats_up",
+  "version": "1.0.0",
+  "description": "A messaging application that allows user to chat in real time",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarvinLara41/whats_up.git"
+  },
+  "author": "Marvin L",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarvinLara41/whats_up/issues"
+  },
+  "homepage": "https://github.com/MarvinLara41/whats_up#readme"
+}
