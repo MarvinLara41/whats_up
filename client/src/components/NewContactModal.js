@@ -29,7 +29,10 @@ export default function NewContactModal({ closeModal }) {
 						<Form.Control type="text" ref={nameRef} required />
 					</Form.Group>
 				</Form>
-				<Button type="submit"> Create </Button>
+				<Button onClick={handleSubmit} type="submit">
+					{' '}
+					Create{' '}
+				</Button>
 			</Modal.Body>
 		</>
 	);
