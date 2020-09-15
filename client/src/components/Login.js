@@ -23,7 +23,7 @@ export default function Login({ onIdSubmit }) {
 			<Form onSubmit={handleSubmit} className="w-100">
 				<Form.Group>
 					<Form.Label>Enter your ID</Form.Label>
-					<Form.Control type="text" ref={idRef} required></Form.Control>
+					<Form.Control type="text" ref={idRef} required />
 				</Form.Group>
 				<Button type="submit" className="mr-2">
 					{' '}
